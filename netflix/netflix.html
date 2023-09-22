@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="netflix.png" alt="Netflix Logo" >
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">New & Popular</a>
+                <a href="#">My List</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="hero">
+            <h1>Welcome to Netflix</h1>
+            <p>Unlimited movies, TV shows, and more.</p>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button class="cta-button">Sign Up</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+<style>
+    /* Reset some default styles */
+body, h1, h2, p {
+    margin-left:70px;
+    padding: 0;
+}
+
+/* Set background and text color */
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    background-image:url("netflix-logo.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styles */
+header {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+/* Main Content styles */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff3c51;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #000;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+</style>
+</html>
